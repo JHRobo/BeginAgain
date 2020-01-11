@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.23",
+	"Category": "",
+	"Description": "",
+	"Enterprise": true,
+	"Modules": [
+		{
+			"Name": "BeginAgain",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		}
+	]
+}
